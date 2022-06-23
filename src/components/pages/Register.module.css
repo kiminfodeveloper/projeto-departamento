@@ -1,0 +1,18 @@
+.register_container {
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.register_container h1 {
+    color: black;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.register_container p {
+    margin-bottom: 0.5em;
+}
+
+.register_container {
+    color: #7b7b7b;
+}

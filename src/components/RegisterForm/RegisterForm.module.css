@@ -1,0 +1,41 @@
+.form_control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form_control label {
+    margin-bottom: .6em;
+    font-weight: bold;
+    color: black;
+}
+
+.form_control input {
+    padding: .7em;
+    border-radius: 0.3em;
+    border: 0.1em;
+}
+
+.form_control input::placeholder {
+    color: #7b7b7b;
+}
+
+.form_control h1 {
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.form_control input[type=submit], input[type=reset] {
+    background-color: #212423;
+    border: none;
+    color: white;
+    padding: 0.7em 5em;
+    text-decoration: none;
+    margin: 2em 0em;
+    cursor: pointer;
+    border-radius: 1em;
+}
+
+.form_control input:hover {
+    color: #ffbb33;
+}
